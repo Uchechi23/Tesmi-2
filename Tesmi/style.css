@@ -1,0 +1,248 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+/* Global */
+.btn-border{
+    border-color: rgb(110, 19, 19) !important;
+}
+.main-bck-image{
+    background-image: linear-gradient(rgba(197, 188, 18, 0.329), rgba(185, 23, 61, 0.555)), url("https://www.vlisco.com/wp-content/uploads/2019/05/190307_MM_Vlisco_Nigeria_002_682_LB.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.line-height{
+    line-height: 60px;
+}
+.pry-text-color{
+    color: rgb(189, 17, 17) !important;
+}
+.sec-text-color{
+    color: rgb(110, 19, 19) !important;
+}
+.pry-btn-color{
+    color: white;
+    background-color: rgb(110, 19, 19) !important;
+}
+.btn-click:hover{
+    background-color: rgb(189, 17, 17) !important;
+    border-color: rgb(189, 17, 17) !important;
+}
+.nav-click:hover{
+    color: rgb(189, 17, 17) !important;
+}
+.btn-size{
+    width: 180px;
+    height: 60px;
+}
+
+.choose .container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.left-bck-img{
+    background-image: url("https://i.pinimg.com/1200x/82/73/55/827355785ec82cf7019a67120812e27f.jpg");
+    background-position: left;
+    background-size: cover;
+    width: 30%;
+    height: 98vh;
+    
+}
+
+.z{
+    z-index: 200;
+}
+.slider-h5{
+    padding-top: 18px;
+    line-height: 23px;
+    font-size: 16px;
+}
+.tes-transition{
+    transition: all 0.5s;
+}
+.testimonial-effect:hover{
+    transform: scale(1.09);
+}
+.services.transition{
+    transition: all 0.5s;
+}
+.services-effect:hover{
+    transform: scale(1.09);
+}
+.main2-bck-image{
+    background-image: linear-gradient(rgba(197, 18, 27, 0.329), rgba(185, 23, 61, 0.781)), url("../images/bck1.jpg");
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content{
+    font-size: large;
+    background-color: rgb(233, 225, 225) !important;
+    height: 75vh;
+}
+.footer .footer-content .container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content a{
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom: none;
+}
+.logo span{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(189, 17, 17)!important;
+    margin-top: 3px;
+    border: none;
+}
+.footer .footer-content .container .row .footer-info{
+    width: 50%;
+}
+.footer .footer-content .container .row .footer-info p{
+    font-size: 13px;
+    margin-bottom: 0;
+    color: rgb(110, 19, 19) !important;
+}
+.icons{
+    background-color: rgb(110, 19, 19) !important;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    margin-inline: 3px;
+    padding: 7px;
+    display: flex;
+    
+}
+
+.footer-links ul{
+    list-style: circe;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-content .footer-links ul li{
+    font-size: 14px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    
+}
+.footer .footer-content .footer-links ul a {
+    color: rgb(110, 19, 19) !important;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+  
+.footer .footer-content .footer-links ul a:hover{
+    color: rgb(189, 17, 17) !important;
+}
+
+.footer .footer-legal{
+    height: 25vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about us */
+.about-main{
+    background-image: linear-gradient(rgba(51, 4, 37, 0.89), rgba(87, 7, 26, 0.555)), url("https://i1.wp.com/www.vlisco.com/wp-content/uploads/2017/08/Campaign_0002_Layer-52.jpg?fit=995%2C560&ssl=1");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .container h1{
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+.about-meet .container-sm{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.abt-left{
+    margin-top: 40px;
+    background-image: url("https://i1.wp.com/www.vlisco.com/wp-content/uploads/2017/08/mega_menu_june.jpg?fit=293%2C356&ssl=1");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 60vh;
+    margin-right: px;
+
+}
+.right{
+    width: 80%;
+    margin-right: 110px;
+}
+
+.right h5{
+    margin-top: 20px;
+    line-height: 29px;
+    word-spacing: 20%;
+}
+.first{
+    width: 50%;
+}
+.second{
+    width: 50%;
+}
+.first-image{
+    background-image: url("../images/tesmi3.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 50vh;
+}
+
+/* Contact Us */
+
+.contact-main{
+    background-image: linear-gradient(rgba(51, 4, 37, 0.89), rgba(87, 7, 26, 0.555)), url("https://i1.wp.com/www.vlisco.com/wp-content/uploads/2017/01/Q12017_VliscoCampaignImage1_0002_VLISCO_2017-S1_STILLS_14_WH_NG_MARCH_073_LANDSC_R300.jpg?fit=1600%2C900&ssl=1");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.icon{
+    background-color: rgb(110, 19, 19) !important;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin-inline: 3px;
+    display: flex;
+    padding: 10px;
+}
+.form{
+    align-items: center;
+    margin-top: 60px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(110, 19, 19);
+}
+textarea{
+    border: 1px solid rgb(110, 19, 19);
+    width: 90%;
+}
